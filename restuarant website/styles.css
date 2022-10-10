@@ -1,0 +1,99 @@
+#up-north {
+    background-color:#F25041;
+   
+}
+
+#page wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1440px;
+    height: 118px;
+
+}
+#nav-link{
+ 
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+margin: 10px;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+.food1 {
+    width: 50%;
+    background-color: red;
+}
+.price{
+    font-size: medium;
+    color: #ffffff;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+*{
+    box-sizing: border-box;
+}
+
+li{
+    font-size: medium;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.hero{
+    width: 100%;
+    height: auto;
+}
+
+.strawberry{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    color: gray;
+}
+.button1{
+    display: block;
+    width: 40%;
+   background-color:#F25041;
+   font-size: 1.1rem;
+   color: #ffffff;
+}
+.menu{
+    flex-direction: row;
+    display: flex;
+}
+.drink{
+    font-size: 32px;
+}
+
+#contact{
+    justify-content: center;
+}
+.last{
+    background:#F25041;
+    width: 1440px;
+    height: 361px;
+}
+nav ul li{
+    list-style-type: none;
+}
+#navbar-nav > li{
+    padding: 10px;
+    margin: 10px;
+}
